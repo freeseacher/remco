@@ -20,8 +20,8 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/HeavyHorst/easyKV"
-	"github.com/HeavyHorst/remco/backends/plugin"
+	easyKV "github.com/HeavyHorst/easyKV"
+	"github.com/HeavyHorst/remco/pkg/backends/plugin"
 	consul "github.com/hashicorp/consul/api"
 	"github.com/natefinch/pie"
 )
